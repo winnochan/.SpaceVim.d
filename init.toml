@@ -11,7 +11,7 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "one"
+    colorscheme = "base16-tomorrow-night"
     colorscheme_bg = "dark"
     # airline_theme='one'
     # Disable guicolors in basic mode, many terminal do not support 24bit
@@ -33,7 +33,7 @@
     bootstrap_after = "after#main"
 
 [[custom_plugins]]
-    name = "rakr/vim-one"
+    name = "chriskempson/base16-vim"
     merged = 0
 
 # Enable autocomplete layer
